@@ -9,16 +9,7 @@ const mainPage = {
         `<main>
         <slider :items="itemList"></slider>
         
-        <div class="featured-new padding-site">
-            <div class="feature-menu-wrapper clearfix">
-                <ul class="featured-menu">
-                    <li class="featured-list"><a href="" class="featured-link featured-link-active">Featured</a></li>
-                    <li class="featured-list"><a href="" class="featured-link">New</a></li>
-                </ul>
-                <router-link to="/products" class="explore-link">Explore all <img class="text-arrow" src="img/arrow.svg" alt=""></router-link>
-            </div>
-            <featured-panels :items="itemList"></featured-panels>
-        </div>
+        <featured-panels :items="itemList"></featured-panels>
         <exclusive :items="itemList"></exclusive>
         <trending-listing :items="itemList"></trending-listing>
         <slider :items="itemList"></slider>

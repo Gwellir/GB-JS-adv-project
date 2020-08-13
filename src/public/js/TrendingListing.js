@@ -28,7 +28,7 @@ const trendingListing = {
     computed: {
         trending_list() {
             return this.items
-                .filter(item => item.type === "trending")
+                .filter(item => item.type === 'trending')
                 .slice(0, this.maxItems);
         }
     }

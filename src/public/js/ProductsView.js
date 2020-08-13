@@ -24,7 +24,9 @@ const productsView = {
         <div class="products-range padding-site">
             <div class="feature-menu-wrapper clearfix">
                 <ul class="products-range-menu">
-                    <li v-for="category in categoriesList" class="products-range-list" @click="setCategory(category)"><div :class="classPerCategory(category)">{{category}}</div></li>
+                    <li v-for="category in categoriesList" class="products-range-list" @click="setCategory(category)">
+                        <div :class="classPerCategory(category)">{{category}}</div>
+                    </li>
                 </ul>
             </div>
             <div class="product-range-panels">
