@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build_dev": "webpack --mode development --config webpack.dev.config.js",
-    "build_prod": "webpack --mode production --config webpack.prod.config.js",
-    "build_server": "webpack --mode development --config webpack.server.config.js",
+    "buildDev": "rm -rf dist && webpack --mode development --config webpack.server.config.js && webpack --mode development --config webpack.dev.config.js --w",
+    "buildProd": "rm -rf dist && webpack --mode production --config webpack.server.config.js && webpack --mode production --config webpack.prod.config.js", 
+    "win_dev_client": "webpack --mode development --config webpack.dev.config.js",
+    "win_prod_client": "webpack --mode production --config webpack.prod.config.js",
+    "win_dev_server": "webpack --mode development --config webpack.server.config.js",
+    "win_prod_server": "webpack --mode production --config webpack.server.config.js",
+    "clean": "rmdir /s /q dist",
     "start": "nodemon dist/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +21,6 @@
     "express": "^4.17.1",
     "moment": "^2.27.0",
     "nodemon": "^2.0.4",
-    "terser-webpack-plugin": "^4.1.0",
-    "url-loader": "^4.1.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3"
   },
@@ -34,7 +36,9 @@
     "mini-css-extract-plugin": "^0.10.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "style-loader": "^1.2.1",
+    "terser-webpack-plugin": "^4.1.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-node-externals": "^2.5.1"
