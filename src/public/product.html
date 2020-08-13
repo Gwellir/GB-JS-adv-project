@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+<div id="app">
+    <div class="container">
+    <div class="products-range padding-site">
+        <div class="product-hot-deal clearfix">
+            <div class="panel-medium">
+                <a href="#" class="panel-link"><img class='product-image' src='/media/{{ product.image }}'></a>
+            </div>
+            <div class="product-description clearfix">
+                <h3 class="big-bold">{{ product.name|title }}</h3>
+                <h3 class="red">{{ product.short_desc }}</h3>
+                <p class="price"> {{ product.price }} <span>rub</span></p>
+                <a href="{% url 'basket:add' product.pk %}" class="product-red-button">
+                    order ></i>
+                </a>
+                <div class="product-description-text">
+                    <p>{{ product.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <products-view :items="itemList"></products-view>
+        
+        <div class="footer padding-site">
+            <div class="infoblocks-wrapper clearfix">
+                <div class="infoblock contact-us">
+                    <h4 class="infoblock-h4">contact us</h4>
+                    <p class="infoblock-content contact-content">132A Bridge Road Richmond VIC 
+                    Australia. <br><br>
+                    Talk to us on 1300 132
+                    info@interior.com</p>
+                </div>
+                <div class="infoblock useful-info">
+                    <h4 class="infoblock-h4">useful information</h4>
+                    <div class="useful-links">
+                        <a href="#" class="useful-link">sales terms</a>
+                        <a href="#" class="useful-link">customer care</a>
+                        <a href="#" class="useful-link">delivery</a>
+                    </div>
+                    <div class="useful-links">
+                        <a href="#" class="useful-link">Architect accounts</a>
+                        <a href="#" class="useful-link">Careers</a>
+                        <a href="#" class="useful-link">Exchanges & returns</a>
+                    </div>
+                </div>
+                <div class="infoblock in-touch">
+                    <h4 class="infoblock-h4">let's stay in touch</h4>
+                    <p class="infoblock-content">Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                    <form class="feedback" action="#">
+                        <input class="input-in-touch" type="email" placeholder="your email address">
+                    </form>
+                </div>
+            </div>
+            <div class="copyright-links">
+                <p class="copyright">© Copyright - INTERIOR 2016. All Rights Reserved.</p>
+                <a href="#" class="terms-link">Terms & Conditions  /  Privacy policy & Cookies</a>
+                <img src="img/social-links.png" alt="social" class="social">
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</body>
+</html>

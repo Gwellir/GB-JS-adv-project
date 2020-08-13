@@ -1,0 +1,26 @@
+[
+    {
+        "name": "home",
+        "link": "index.html"
+    },
+    {
+        "name": "products",
+        "link": "products.html"
+    },
+    {
+        "name": "history",
+        "link": "history.html"
+    },
+    {
+        "name": "showroom",
+        "link": "showroom.html"
+    },
+    {
+        "name": "contact",
+        "link": "contact.html"
+    },
+    {
+        "name": "<img src='img/search.svg' alt=''>",
+        "link": "search.html"
+    }
+]

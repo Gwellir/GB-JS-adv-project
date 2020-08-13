@@ -1,0 +1,41 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 1,
+            "id": 2,
+            "name": "Cloth Chair",
+            "type": "exclusive",
+            "class": "promo-image",
+            "desc": "Gather around this finest piece of furniture during cloudy days!",
+            "img": "img/promo-img1.jpg",
+            "link": "/product/2",
+            "category": "office",
+            "price": 6000
+        },
+        {
+            "quantity": 2,
+            "id": 1,
+            "name": "Round Table",
+            "type": "hot deal",
+            "class": "slider-hotdeal",
+            "desc": "Gather around this finest piece of furniture during cloudy days!",
+            "img": "img/slider.jpg",
+            "link": "/product/1",
+            "category": "home",
+            "price": 8000
+        },
+        {
+            "quantity": 1,
+            "id": 11,
+            "type": "featured",
+            "img": "img/product-2.jpg",
+            "link": "/product/11",
+            "name": "Two Blue Chairs",
+            "desc": "Seat and back with upholstery made of cold cure foam",
+            "category": "office",
+            "price": 20000
+        }
+    ]
+}

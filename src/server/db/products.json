@@ -1,0 +1,162 @@
+[
+    {
+        "id": 0,
+        "name": "Fishnet Puff",
+        "type": "hot deal",
+        "class": "slider-trending",
+        "desc": "Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black",
+        "img": "img/slider-img.jpg",
+        "link": "/product/0",
+        "category": "home",
+        "price": 10000
+    },
+    {
+        "id": 1,
+        "name": "Round Table",
+        "type": "hot deal",
+        "class": "slider-hotdeal",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/slider.jpg",
+        "link": "/product/1",
+        "category": "home",
+        "price": 8000
+    },
+    {
+        "id": 2,
+        "name": "Cloth Chair",
+        "type": "exclusive",
+        "class": "promo-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/promo-img1.jpg",
+        "link": "/product/2",
+        "category": "office",
+        "price": 6000
+    },
+    {
+        "id": 3,
+        "name": "Leather Chair",
+        "type": "exclusive",
+        "class": "promo-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/promo-img.jpg",
+        "link": "/product/3",
+        "category": "home",
+        "price": 15000
+    },
+    {
+        "id": 4,
+        "name": "Marble Lamp",
+        "type": "trending",
+        "class": "trending-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/product-11.jpg",
+        "link": "/product/4",
+        "category": "home",
+        "price": 4000
+    },
+    {
+        "id": 5,
+        "name": "Comfy Chair",
+        "type": "trending",
+        "class": "trending-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/product-21.jpg",
+        "link": "/product/5",
+        "category": "home",
+        "price": 5000
+    },
+    {
+        "id": 6,
+        "name": "Black Curved Lamp",
+        "type": "trending",
+        "class": "trending-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/product-31.jpg",
+        "link": "/product/6",
+        "category": "home",
+        "price": 2000
+    },
+    {
+        "id": 7,
+        "name": "Black Triangle Lamp",
+        "type": "trending",
+        "class": "trending-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/product-41.jpg",
+        "link": "/product/7",
+        "category": "home",
+        "price": 3000
+    },
+    {
+        "id": 8,
+        "name": "Mortar & Pestle",
+        "type": "trending",
+        "class": "trending-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/product-5.jpg",
+        "link": "/product/8",
+        "category": "home",
+        "price": 1000
+    },
+    {
+        "id": 9,
+        "name": "Cutoff Lamp",
+        "type": "trending",
+        "class": "trending-image",
+        "desc": "Gather around this finest piece of furniture during cloudy days!",
+        "img": "img/product-6.jpg",
+        "link": "/product/9",
+        "category": "home",
+        "price": 4500
+    },
+    {
+        "id": 10,
+        "type": "featured",
+        "img": "img/product-1.jpg",
+        "link": "/product/10",
+        "name": "Comfy Lamp",
+        "desc": "Enjoy the lighting provided by this unique piece of ergonomic artwork",
+        "category": "furniture",
+        "price": 2500
+    },
+    {
+        "id": 11,
+        "type": "featured",
+        "img": "img/product-2.jpg",
+        "link": "/product/11",
+        "name": "Two Blue Chairs",
+        "desc": "Seat and back with upholstery made of cold cure foam",
+        "category": "office",
+        "price": 20000
+    },
+    {
+        "id": 12,
+        "type": "featured",
+        "img": "img/product-3.jpg",
+        "link": "/product/12",
+        "name": "Borked Kettle",
+        "desc": "Feel the necessity of following safety regulations while looking at this impactful item",
+        "category": "modern",
+        "price": 500
+    },
+    {
+        "id": 13,
+        "type": "featured",
+        "img": "img/product-4.jpg",
+        "link": "/product/13",
+        "name": "Cloth Chair",
+        "desc": "Seat and back with upholstery made of cold cure foam",
+        "category": "classic",
+        "price": 14000
+    },
+    {
+        "id": 14,
+        "type": "exclusive",
+        "img": "img/product-1-lg.jpg",
+        "link": "/product/14",
+        "name": "Mini Pillow",
+        "desc": "The softest touch of this pillow will make your falling asleep stupidly effortless",
+        "category": "modern",
+        "price": 3500
+    }
+]
